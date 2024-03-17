@@ -5,6 +5,7 @@ import ButtonNav from './ButtonNav';
 import DomonstrarNav from './DemonstrarNav';
 import TitleHeader from './TitleHeader';
 import Phones from './Phones';
+import Cicle from './Cicle'; // Importando o componente Cicle
 
 import Logo from "../src/assets/Logo.svg";
 import backgroundImg from "../src/assets/background.svg";
@@ -50,6 +51,9 @@ const Header = () => {
           </div>
           <div className="col-lg-12">
             <Phones/>
+          </div>
+          <div className="col-lg-3 offset-lg-0">
+            <Cicle/>
           </div>
         </div>
       </div>
