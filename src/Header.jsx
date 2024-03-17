@@ -3,10 +3,11 @@ import './App.css';
 
 import ButtonNav from './ButtonNav';
 import DomonstrarNav from './DemonstrarNav';
-import TitleHeader from './TitleHeader'; // Importando o componente TitleHeader
+import TitleHeader from './TitleHeader';
+import Phones from './Phones';
 
 import Logo from "../src/assets/Logo.svg";
-import backgroundImg from "../src/assets/background.svg"; // Importando a imagem de fundo
+import backgroundImg from "../src/assets/background.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const Header = () => {
@@ -43,12 +44,12 @@ const Header = () => {
         </div>
       </nav>
       <div className="container mt-3">
-        <div className="row">
-          <div className="col-12 mt-5">
+        <div className="row d-flex flex-column-reverse flex-lg-row mt-5">
+          <div className="col-lg-12 mt-5">
             <TitleHeader/>
           </div>
-          <div className="col-12">
-            <img src="" alt="" srcSet="" /> {/* Inserindo a imagem */}
+          <div className="col-lg-12">
+            <Phones/>
           </div>
         </div>
       </div>
