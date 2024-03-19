@@ -5,13 +5,16 @@ import ButtonNav from './ButtonNav';
 import DomonstrarNav from './DemonstrarNav';
 import TitleHeader from './TitleHeader';
 import Phones from './Phones';
-import Cicle from './Cicle'; // Importando o componente Cicle
+import Cicle from './Cicle'; 
 
+import grupoMiranteImg from "../src/assets/grupoMirante.svg";
+import logoAdueloImg from "../src/assets/logoAduelo.svg";
+import miranteAm from "../src/assets/miranteAm.svg";
 import Logo from "../src/assets/Logo.svg";
 import backgroundImg from "../src/assets/background.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const Header = () => {
+const header = () => {
   return (
     <div className="Header" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <nav className="navbar navbar-expand-lg">
@@ -57,8 +60,14 @@ const Header = () => {
           </div>
         </div>
       </div>
+      <footer className='navfooter'>
+        <img className='logoAdueloImg' src={logoAdueloImg} alt="logoAdueloImg"/>
+        <img className='grupoMiranteImg' src={grupoMiranteImg} alt="grupoMiranteImg"/>
+        <img className='miranteAm' src={miranteAm} alt="miranteAm"/>
+      </footer>
     </div>
-  );
+  )
 }
 
-export default Header;
+export default header;
+""

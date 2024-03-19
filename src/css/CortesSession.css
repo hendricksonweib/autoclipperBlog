@@ -1,0 +1,74 @@
+.Cortesimg{
+    margin-top: -51%;
+    margin-left: -42%;
+}
+.odometer {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 70px;
+    display: inline-block;
+  }
+  .odometer + span {
+    font-size: 32px;
+    vertical-align: start;
+    margin-left: 5px;
+  }
+#state1 {
+    z-index: 3;
+    position: absolute;
+    top: 133%;
+    left: 20%;
+  }
+  #span1 {
+    z-index: 3;
+    position: absolute;
+    top: 136%;
+    left: 27%;
+  }
+  #state2 {
+    z-index: 3;
+    position: absolute;
+    top: 107%;
+    left: 43%;
+  }
+  #span2 {
+    z-index: 3;
+    position: absolute;
+    top: 110%;
+    left: 46.5%;
+  }
+  
+  #state3 {
+    z-index: 3;
+    position: absolute;
+    top: 127%;
+    left: 39.5%;
+  }
+  
+  #span3 {
+    z-index: 3;
+    position: absolute;
+    top: 130%;
+    left: 44%;
+  }
+  .numero {
+    display: flex;
+    align-items: end;
+  }
+  .navMainH2 {
+    z-index: 3;
+    position: absolute;
+    top: 62.5rem;
+    left: 64rem;
+  }
+  .fontH2 {
+    font-weight: 90000;
+    font-weight: bold;
+    font-family: "Epilogue", sans-serif;
+  }
+  .btnH2 {
+    background-color: black;
+    color: #CAFF1F;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+  }
