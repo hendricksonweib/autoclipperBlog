@@ -5,7 +5,7 @@ import ButtonNav from './ButtonNav';
 import DomonstrarNav from './DemonstrarNav';
 import TitleHeader from './TitleHeader';
 import Phones from './Phones';
-import Cicle from './Cicle'; 
+import Cicle from './Cicle';
 
 import grupoMiranteImg from "../src/assets/grupoMirante.svg";
 import logoAdueloImg from "../src/assets/logoAduelo.svg";
@@ -19,29 +19,29 @@ const header = () => {
     <div className="Header" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <nav className="navbar navbar-expand-lg">
         <div className="container mt-3">
-          <img className='logoImg' src={Logo} alt="LogoAutoClipper"/>
+          <img className='logoImg' src={Logo} alt="LogoAutoClipper" />
           <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
             <ul className="navbar-nav ms-auto d-flex justify-content-center align-items-center">
               <li className="nav-item">
-                <ButtonNav texto="O quê?"/>
+                <ButtonNav texto="O quê?" />
               </li>
               <li className="nav-item">
-                <ButtonNav texto="Benefícios?"/>
+                <ButtonNav texto="Benefícios?" />
               </li>
               <li className="nav-item">
-                <ButtonNav texto="Para Quem?"/>
+                <ButtonNav texto="Para Quem?" />
               </li>
               <li className="nav-item">
-                <ButtonNav texto="Big Case"/>
+                <ButtonNav texto="Big Case" />
               </li>
               <li className="nav-item">
-                <ButtonNav texto="FAQ"/>
+                <ButtonNav texto="FAQ" />
               </li>
               <li className="nav-item">
-                <DomonstrarNav texto="Agende uma demonstração"/>
+                <DomonstrarNav texto="Agende uma demonstração" />
               </li>
             </ul>
           </div>
@@ -50,20 +50,20 @@ const header = () => {
       <div className="container mt-3">
         <div className="row d-flex flex-column-reverse flex-lg-row mt-5">
           <div className="col-lg-12 mt-5">
-            <TitleHeader/>
+            <TitleHeader />
           </div>
           <div className="col-lg-12">
-            <Phones/>
+            <Phones />
           </div>
           <div className="col-lg-3 offset-lg-0">
-            <Cicle/>
+            <Cicle />
           </div>
         </div>
       </div>
       <footer className='navfooter'>
-        <img className='logoAdueloImg' src={logoAdueloImg} alt="logoAdueloImg"/>
-        <img className='grupoMiranteImg' src={grupoMiranteImg} alt="grupoMiranteImg"/>
-        <img className='miranteAm' src={miranteAm} alt="miranteAm"/>
+        <img className='logoAdueloImg' src={logoAdueloImg} alt="logoAdueloImg" />
+        <img className='grupoMiranteImg' src={grupoMiranteImg} alt="grupoMiranteImg" />
+        <img className='miranteAm' src={miranteAm} alt="miranteAm" />
       </footer>
     </div>
   )

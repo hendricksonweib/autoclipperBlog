@@ -1,0 +1,19 @@
+.WImg {
+    height: 10rem;
+    transition: transform 0.3s ease; 
+}
+.WImg:hover {
+    transform: translateY(-10px); 
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+h1 {
+    font-weight: bolder;
+}
+p {
+    margin-top: 5%;
+    font-weight: 500;
+}

@@ -23,7 +23,7 @@ function CortesSession() {
     od2.update(11);
     od3.update(9.7);
   }, []);
-  
+
   return (
     <div className="container">
       <div className="row">
@@ -44,7 +44,7 @@ function CortesSession() {
         </div>
         <div className="col-sm-7">
           <div className="navMainH2">
-            <h1 className="fontH2">Cresça com a estratégia <br/>de conteúdo dos maiores <br/>canais de entretenimento,<br/> notícias e educação!</h1>
+            <h1 className="fontH2">Cresça com a estratégia <br />de conteúdo dos maiores <br />canais de entretenimento,<br /> notícias e educação!</h1>
             <button className="btnH2">Aumente sua audiência</button>
           </div>
         </div>
