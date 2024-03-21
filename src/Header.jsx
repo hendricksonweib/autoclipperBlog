@@ -49,7 +49,7 @@ const header = () => {
       </nav>
       <div className="container mt-3">
         <div className="row d-flex flex-column-reverse flex-lg-row mt-5">
-          <div className="col-lg-12 mt-5">
+          <div className="col-lg-12 mt-1">
             <TitleHeader />
           </div>
           <div className="col-lg-12">
