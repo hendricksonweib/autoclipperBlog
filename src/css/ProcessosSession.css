@@ -1,0 +1,34 @@
+.bgsessionImg{
+  z-index: 1;
+}
+.fotoImg{
+  z-index: 2;
+  margin-top: -500px;
+  margin-right: 45rem;
+}
+.titleProcess{
+  z-index: 2;
+  margin-top: -400px;
+  margin-right: 15rem;
+  color: white;
+  font-size: 40px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.tags{
+  z-index: 2;
+  color: white;
+  margin-top: -12%;
+  margin-right: -30rem;
+  
+}
+.txtli{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5%;
+}
+li{
+  list-style-type: none;
+  font-size: 18px;
+}

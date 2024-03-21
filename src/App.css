@@ -12,6 +12,7 @@
 }
 .backgroundImg {
   background-image: url('../src/assets/background.svg');
+  background-color: black;
   background-size: cover;
   background-position: center;
   position: absolute;
