@@ -85,11 +85,11 @@
 
 @media (max-width: 767px) {
   .Cortesimg {
-    height: 50%;
-    margin-top: -10%;
-    margin-left: -7%;
+    width: 100%; 
+    height: auto;
+    margin-top: -60px; 
+    margin-left: 10px
   }
-
   .odometer {
     font-family: "Inter", sans-serif;
     font-weight: bolder;
@@ -106,42 +106,42 @@
   #state1 {
     z-index: 3;
     position: absolute;
-    top: 116%;
-    left: 20%;
+    top: 112%;
+    left: 25%;
   }
 
   #span1 {
     z-index: 3;
     position: absolute;
-    top: 117.5%;
-    left: 35%;
+    top: 113.5%;
+    left: 40.5%;
   }
 
   #state2 {
     z-index: 3;
     position: absolute;
     top: 102.5%;
-    left: 72%;
+    left: 70%;
   }
 
   #span2 {
     z-index: 3;
     position: absolute;
     top: 104%;
-    left: 80%;
+    left: 78%;
   }
 
   #state3 {
     z-index: 3;
     position: absolute;
-    top: 112.5%;
+    top: 110.5%;
     left: 63.5%;
   }
 
   #span3 {
     z-index: 3;
     position: absolute;
-    top: 114%;
+    top: 112%;
     left: 74%;
   }
   .navMainH2 {
@@ -158,7 +158,16 @@
     font-weight: 900;
     font-family: "Epilogue", sans-serif;
     margin-bottom: 1rem;
+    margin-top: -3rem;
   }
-  
-  
+  .col-sm-5{
+    display: block;
+  }
+  .btnH2 {
+    background-color: black;
+    color: #CAFF1F;
+    padding: 0.5rem 3rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+  }
 }

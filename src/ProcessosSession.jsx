@@ -11,7 +11,7 @@ function ProcessosSession() {
     <div>
       <div className="conteiner mt-4 d-flex flex-column align-items-center position-relative">
         <img className='bgsessionImg' src={bgsessionImg} alt="bgsessionImg" />
-        <img className='fotoImg' src={fotoImg} alt="fotoImg" />
+        {/* <img className='fotoImg' src={fotoImg} alt="fotoImg" />
         <h1 className='titleProcess'>Nós cuidados<br />do processo de<br />ponta-a-ponta</h1>
         <div className="tags">
           <ul>
@@ -28,7 +28,7 @@ function ProcessosSession() {
               <li>Postagem e gerenciamento do canal<br />do YouTube.</li>
             </div>
           </ul>
-        </div>
+        </div> */}
       </div>
     </div>
   );

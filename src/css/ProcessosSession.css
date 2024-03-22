@@ -32,3 +32,10 @@ li{
   list-style-type: none;
   font-size: 18px;
 }
+
+@media (max-width: 767px) {
+  .bgsessionImg{
+    margin-top: -10rem;
+    width: 8rem;
+  }
+}
