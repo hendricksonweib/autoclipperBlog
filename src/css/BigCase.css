@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+
+.BigCase {
+    background-color: #0F0F0F;
+    margin-top: -6%;
+    z-index: 0;
+    position: relative; 
+    padding: 10rem 0rem;
+}
+.text {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+.bold {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: #ffffff;
+    font-family: "Epilogue", sans-serif;
+}
+.light {
+    font-size: 5rem;
+    font-weight: 200;
+    line-height: 1;
+    color: #ffffff;
+    font-family: "Epilogue", sans-serif;
+}
+.subP {
+    font-family: "Epilogue", sans-serif;
+    color: #7C7A80;
+    margin-top: 0rem;
+    font-size: 2.2rem;
+    font-weight: 200;
+    margin-left: 12rem;
+}
+.textNumber {
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+    flex-wrap: wrap; 
+}
+.dados {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.number {
+    font-size: 5rem;
+    font-weight: bold;
+    color: #ffffff;
+    margin-right: 10px;
+}
+span {
+    font-size: 50%;
+    font-weight: 200;
+}
+.subtext {
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: #B3B0B8;
+    margin-left: 10px;
+}
