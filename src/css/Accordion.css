@@ -1,0 +1,16 @@
+.accordionBg {
+    background-color: black;
+    padding: 5%;
+}
+.AccordionH1{
+    color: #ffffff;
+}
+.accordionheader {
+    background-color: black !important;
+    color: rgb(198, 0, 0) !important;
+}
+
+.accordion-body {
+    background-color: black !important;
+    color: white !important;
+}

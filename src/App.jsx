@@ -5,6 +5,7 @@ import ProcessosSession from './ProcessosSession';
 import Who from './Who.jsx'; 
 import BigCase from './BigCase.jsx'
 import Formulario from './Formulario.jsx';
+import Accordion from './Accordion.jsx';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Who/>
       <BigCase/>
       <Formulario/>
+      <Accordion/>
     </>
   );
 }
