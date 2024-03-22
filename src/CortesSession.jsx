@@ -2,7 +2,6 @@ import React, { useEffect } from 'react';
 import Cortesimg from "../src/assets/Cortes.svg";
 import './css/CortesSession.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Odometer from 'odometer';
 
 function CortesSession() {
   useEffect(() => {

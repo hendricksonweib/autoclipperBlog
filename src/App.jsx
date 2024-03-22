@@ -3,6 +3,7 @@ import Header from './Header'
 import CortesSession from './CortesSession';
 import ProcessosSession from './ProcessosSession';
 import Who from './Who.jsx'; 
+import BigCase from './BigCase.jsx';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CortesSession/>
       <ProcessosSession/>
       <Who/>
+      <BigCase/>
     </>
   );
 }
