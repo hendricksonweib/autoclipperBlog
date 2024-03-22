@@ -1,0 +1,25 @@
+.bgforms{
+    background-color: #0F0F0F;
+    padding: 8rem 0rem;
+}
+.form-control {
+    background-color: #0F0F0F; /* Cor de fundo padrão */
+}
+.form-control:focus {
+    background-color: #0F0F0F; 
+    border-color: #CAFF1F; 
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); 
+    color: white;
+}
+label{
+    color: rgba(247, 247, 247, 0.755);
+}
+.titleForm{
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+}
+.pforms{
+    font-size: 18px;
+    font-weight: 200;
+    color: rgb(255, 255, 255);
+}
