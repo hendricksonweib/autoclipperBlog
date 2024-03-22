@@ -10,4 +10,13 @@
   .rotate-animation {
     animation: rotate 35s linear infinite;
   }
+  @media (max-width: 767px) {
+    .empresasimg {
+      display: none;
+    }
+    
+    .empresasNameimg {
+      display: none;
+    }
+  }
   
