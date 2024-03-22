@@ -3,6 +3,7 @@ import Header from './Header'
 import CortesSession from './CortesSession';
 import ProcessosSession from './ProcessosSession';
 import Who from './Who.jsx'; 
+import BigCase from './BigCase.jsx'
 import Formulario from './Formulario.jsx';
 
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <CortesSession/>
       <ProcessosSession/>
       <Who/>
+      <BigCase/>
       <Formulario/>
     </>
   );

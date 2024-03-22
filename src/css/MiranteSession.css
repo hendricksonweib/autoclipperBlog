@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&display=swap");
+
+.BigCaseBg {
+    background-color: #0F0F0F;
+    padding: 8rem 0rem 4rem 0rem;
+}
+
+.boldTxt {
+    color: white;
+    font-weight: bolder;
+    font-size: 500%;
+    font-family: "Epilogue", sans-serif;
+}
+
+.smallTxt {
+    color: white;
+    font-weight: 100;
+    font-size: 500%;
+    font-family: "Epilogue", sans-serif;
+}
+
+.ptxt {
+    color: #7C7A80;
+    font-size: 190%;
+    font-weight: 100;
+}
+
+.numberTxt{
+    color: white;
+    font-size: 400%;
+}
+.spanTxt{
+    color: white;
+    font-size: 40%;
+    font-weight: 100;
+}
+.numberP{
+    color: white;
+    font-size: 150%;
+    font-weight: 100;
+    margin: 0rem;
+    color: #B3B0B8;
+}
