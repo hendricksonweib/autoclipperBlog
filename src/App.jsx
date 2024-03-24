@@ -13,7 +13,7 @@ function App() {
     <>
       <Header/>
       <CortesSession/>
-      {/* <ProcessosSession/> */}
+      <ProcessosSession/>
       {/* <Who/> */}
       {/* <BigCase/> */}
       {/* <Formulario/> */}
