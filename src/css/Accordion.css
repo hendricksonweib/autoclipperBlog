@@ -27,6 +27,7 @@
 @media (max-width: 768px) {
     .accordionBg {
         padding: 10px;
+        overflow-x: hidden; 
     }
 
     .accordion-body {
