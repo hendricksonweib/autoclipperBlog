@@ -1,11 +1,29 @@
-.Parceiros{
+.Parceiros {
     background-color: #0F0F0F;
     padding: 4rem 0rem 8rem 0rem;
 }
-.parceirosH1{
+
+.parceirosH1 {
     font-size: 70px;
     color: rgb(255, 255, 255);
 }
-hr{
-    background-color: #e50000;
+
+/* Estilos para dispositivos com largura entre 990px e 767px */
+@media (max-width: 990px) and (min-width: 767px) {
+    .Parceiros {
+        background-color: #0F0F0F;
+        padding: 4rem 0rem 8rem 0rem;
+    }
+
+    .parceirosH1 {
+        font-size: 50px;
+        color: rgb(255, 255, 255);
+    }
+
+    .fila1Img {
+        max-width: 100%;
+        height: auto;
+        margin-top: 0px;
+    }
+
 }
