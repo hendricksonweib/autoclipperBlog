@@ -10,13 +10,25 @@
   .rotate-animation {
     animation: rotate 35s linear infinite;
   }
-  @media (max-width: 767px) {
-    .empresasimg {
-      display: none;
-    }
-    
-    .empresasNameimg {
-      display: none;
-    }
+
+/* Estilos para dispositivos com largura entre 990px e 767px */
+@media (max-width: 990px) and (min-width: 767px) {
+  .empresasimg {
+    display: none;
   }
   
+  .empresasNameimg {
+    display: none;
+  }
+}
+
+/* Estilos para dispositivos móveis com largura máxima de 767px */
+@media (max-width: 767px) {
+  .empresasimg {
+    display: none;
+  }
+  
+  .empresasNameimg {
+    display: none;
+  }
+}

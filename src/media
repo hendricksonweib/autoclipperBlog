@@ -1,0 +1,9 @@
+/* Estilos para dispositivos com largura entre 986px e 1250px */
+@media (min-width: 986px) and (max-width: 1250px) {}
+
+/* Estilos para dispositivos com largura entre 990px e 767px */
+@media (max-width: 990px) and (min-width: 767px) {}
+
+/* Estilos para dispositivos móveis com largura máxima de 767px */
+@media (max-width: 767px) {}
+

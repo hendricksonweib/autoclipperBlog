@@ -1,6 +1,6 @@
 .Cortesimg {
-  margin-top: -51%;
-  margin-left: -42%;
+  margin-top: 0%;
+  margin-left: 0%;
 }
 
 .odometer {
@@ -83,91 +83,272 @@
   border-radius: 10px;
 }
 
-@media (max-width: 767px) {
+/* Estilos para dispositivos com largura entre 986px e 1250px */
+@media (min-width: 986px) and (max-width: 1250px) {
   .Cortesimg {
-    width: 100%; 
+    margin-top: 20%;
+    margin-left: 15%;
     height: auto;
-    margin-top: -60px; 
-    margin-left: 10px
+    width: 130%; 
   }
+  
   .odometer {
     font-family: "Inter", sans-serif;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 60px;
     display: inline-block;
   }
-
+  
   .odometer+span {
-    font-size: 15px;
+    font-size: 2px;
     vertical-align: start;
     margin-left: 5px;
   }
-
+  
   #state1 {
     z-index: 3;
     position: absolute;
-    top: 112%;
-    left: 25%;
+    top: 133%;
+    left: 20%;
   }
-
+  
   #span1 {
     z-index: 3;
     position: absolute;
-    top: 113.5%;
-    left: 40.5%;
+    top: 136%;
+    left: 27%;
   }
-
+  
   #state2 {
     z-index: 3;
     position: absolute;
-    top: 102.5%;
-    left: 70%;
+    top: 107%;
+    left: 43%;
   }
-
+  
   #span2 {
     z-index: 3;
     position: absolute;
-    top: 104%;
-    left: 78%;
+    top: 110%;
+    left: 46.5%;
   }
-
+  
   #state3 {
     z-index: 3;
     position: absolute;
-    top: 110.5%;
-    left: 63.5%;
+    top: 127%;
+    left: 39.5%;
   }
-
+  
   #span3 {
     z-index: 3;
     position: absolute;
-    top: 112%;
-    left: 74%;
+    top: 130%;
+    left: 44%;
   }
+  
+  .numero {
+    display: flex;
+    align-items: end;
+  }
+  
   .navMainH2 {
     z-index: 3;
-    top: 73rem;
-    left: 1.5rem;
+    position: absolute;
+    top: -62.5rem;
+    left: 64rem;
   }
   
   .fontH2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 22px;
-    font-weight: 900;
+    font-weight: 90000;
+    font-weight: bold;
     font-family: "Epilogue", sans-serif;
-    margin-bottom: 1rem;
-    margin-top: -3rem;
   }
-  .col-sm-5{
-    display: block;
-  }
+  
   .btnH2 {
     background-color: black;
     color: #CAFF1F;
-    padding: 0.5rem 3rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 10px;
-    margin-left: 1rem;
   }
+  
+  @media (max-width: 767px) {
+    .Cortesimg {
+      width: 100%; 
+      height: auto;
+      margin-top: -60px; 
+      margin-left: 10px
+    }
+    .odometer {
+      font-family: "Inter", sans-serif;
+      font-weight: bolder;
+      font-size: 30px;
+      display: inline-block;
+    }
+  
+    .odometer+span {
+      font-size: 15px;
+      vertical-align: start;
+      margin-left: 5px;
+    }
+  
+    #state1 {
+      z-index: 3;
+      position: absolute;
+      top: 112%;
+      left: 25%;
+    }
+  
+    #span1 {
+      z-index: 3;
+      position: absolute;
+      top: 113.5%;
+      left: 40.5%;
+    }
+  
+    #state2 {
+      z-index: 3;
+      position: absolute;
+      top: 102.5%;
+      left: 70%;
+    }
+  
+    #span2 {
+      z-index: 3;
+      position: absolute;
+      top: 104%;
+      left: 78%;
+    }
+  
+    #state3 {
+      z-index: 3;
+      position: absolute;
+      top: 110.5%;
+      left: 63.5%;
+    }
+  
+    #span3 {
+      z-index: 3;
+      position: absolute;
+      top: 112%;
+      left: 74%;
+    }
+    .navMainH2 {
+      z-index: 3;
+      top: 73rem;
+      left: 1.5rem;
+    }
+    
+    .fontH2 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 900;
+      font-family: "Epilogue", sans-serif;
+      margin-bottom: 1rem;
+      margin-top: -3rem;
+    }
+    .col-sm-5{
+      display: block;
+    }
+    .btnH2 {
+      background-color: black;
+      color: #CAFF1F;
+      padding: 0.5rem 3rem;
+      border-radius: 10px;
+      margin-left: 1rem;
+    }
+  }
+  
+}
+
+/* Estilos para dispositivos com largura entre 990px e 767px */
+@media (max-width: 990px) and (min-width: 767px) {
+  .Cortesimg {
+    margin-top: 0%;
+    margin-left: 0%;
+    height: auto;
+    width: 260%; 
+  }
+  
+  .odometer {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+    display: inline-block;
+  }
+  
+  .odometer+span {
+    font-size: 2px;
+    vertical-align: start;
+    margin-left: 5px;
+  }
+  
+  #state1 {
+    z-index: 3;
+    position: absolute;
+    top: 133%;
+    left: 20%;
+  }
+  
+  #span1 {
+    z-index: 3;
+    position: absolute;
+    top: 136%;
+    left: 27%;
+  }
+  
+  #state2 {
+    z-index: 3;
+    position: absolute;
+    top: 107%;
+    left: 43%;
+  }
+  
+  #span2 {
+    z-index: 3;
+    position: absolute;
+    top: 110%;
+    left: 46.5%;
+  }
+  
+  #state3 {
+    z-index: 3;
+    position: absolute;
+    top: 127%;
+    left: 39.5%;
+  }
+  
+  #span3 {
+    z-index: 3;
+    position: absolute;
+    top: 130%;
+    left: 44%;
+  }
+  
+  .numero {
+    display: flex;
+    align-items: end;
+  }
+  .navMainH2 {
+    z-index: 3;
+    top:168%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+  }
+  
+  .fontH2 {
+    font-weight: 90000;
+    font-weight: bold;
+    font-family: "Epilogue", sans-serif;
+  }
+  
+  .btnH2 {
+    background-color: black;
+    color: #CAFF1F;
+    padding: 0.5rem 1.5rem;
+    border-radius: 10px;
+  }
+  
 }

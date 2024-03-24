@@ -9,8 +9,8 @@ import './css/Phones.css'
 export default function Phones() {
   return (
     <div>
-        <img className='phone1' src={phone1Img} alt="phone1Img"/>
         <img className='phone2' src={phone2Img} alt="phone2Img"/>
+        <img className='phone1' src={phone1Img} alt="phone1Img"/>
         <img className='minImg' src={minImg} alt="minImg"/>
         <img className='reelsImg' src={reelsImg} alt="reelsImg"/>
         <img className='playImg' src={playImg} alt="playImg"/>

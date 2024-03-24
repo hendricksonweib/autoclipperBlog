@@ -126,6 +126,286 @@
   left: 21.5rem;
 }
 
+/* Estilos para dispositivos com largura entre 986px e 1250px */
+@media (min-width: 986px) and (max-width: 1250px) {
+  @keyframes movePhone1 {
+    0% {
+      top: 11rem;
+      left: 30%;
+    }
+  
+    100% {
+      top: 7rem;
+      left: 55%;
+    }
+  }
+  
+  @keyframes movePhone2 {
+    0% {
+      top: 11rem;
+      left: 73%;
+    }
+  
+    100% {
+      top: 13.5rem;
+      left: 65%;
+    }
+  }
+  
+  .phone1 {
+    position: absolute;
+    height: 55%;
+    animation: movePhone1 1s forwards;
+  }
+  
+  .phone2 {
+    position: absolute;
+    height: 45%;
+    animation: movePhone2 1s forwards;
+  }
+
+  
+@keyframes movePlay {
+  0% {
+    top: 11rem;
+    left: 35%;
+  }
+
+  100% {
+    top: 11rem;
+    left: 55%;
+  }
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.playImg {
+  position: absolute;
+  height: 3.5rem;
+  animation: movePlay 1s forwards, moveUpDown 2s infinite alternate;
+}
+
+
+@keyframes moveReels {
+  0% {
+    top: 18rem;
+    left: 60rem;
+  }
+
+  100% {
+    top: 18rem;
+    left: 89%;
+  }
+}
+
+@keyframes moveUpDownReels {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.reelsImg {
+  position: absolute;
+  height: 3.5rem;
+  animation: moveReels 2s forwards, moveUpDownReels 3s infinite alternate;
+}
+
+@keyframes moveMin {
+  0% {
+    top: 28rem;
+    left: 60rem;
+  }
+
+  100% {
+    top: 28rem;
+    left: 53%;
+  }
+}
+
+@keyframes moveUpDownMin {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.minImg {
+  position: absolute;
+  height: 4rem;
+  animation: moveMin 2s forwards, moveUpDownMin 3s infinite alternate;
+}
+
+.iconempresas1 {
+  z-index: 3;
+  position: absolute;
+  top: 35rem;
+  left: 21.5rem;
+}
+
+}
+
+/* Estilos para dispositivos com largura entre 990px e 767px */
+@media (max-width: 990px) and (min-width: 767px) {
+  @keyframes movePhone1 {
+    0% {
+      top: 11rem;
+      left: 30%;
+    }
+  
+    100% {
+      top: 7rem;
+      left: 51%;
+    }
+  }
+  
+  @keyframes movePhone2 {
+    0% {
+      top: 11rem;
+      left: 73%;
+    }
+  
+    100% {
+      top: 13.5rem;
+      left: 65%;
+    }
+  }
+  
+  .phone1 {
+    position: absolute;
+    height: 45%;
+    animation: movePhone1 1s forwards;
+  }
+  
+  .phone2 {
+    position: absolute;
+    height: 38%;
+    animation: movePhone2 1s forwards;
+  }
+
+  
+@keyframes movePlay {
+  0% {
+    top: 11rem;
+    left: 35%;
+  }
+
+  100% {
+    top: 11rem;
+    left: 55%;
+  }
+}
+
+@keyframes moveUpDown {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.playImg {
+  position: absolute;
+  height: 3.5rem;
+  animation: movePlay 1s forwards, moveUpDown 2s infinite alternate;
+}
+
+
+@keyframes moveReels {
+  0% {
+    top: 18rem;
+    left: 60rem;
+  }
+
+  100% {
+    top: 18rem;
+    left: 89%;
+  }
+}
+
+@keyframes moveUpDownReels {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.reelsImg {
+  position: absolute;
+  height: 3.5rem;
+  animation: moveReels 2s forwards, moveUpDownReels 3s infinite alternate;
+}
+
+@keyframes moveMin {
+  0% {
+    top: 28rem;
+    left: 60rem;
+  }
+
+  100% {
+    top: 21rem;
+    left: 50%;
+  }
+}
+
+@keyframes moveUpDownMin {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-5px);
+  }
+}
+
+.minImg {
+  position: absolute;
+  height: 4rem;
+  animation: moveMin 2s forwards, moveUpDownMin 3s infinite alternate;
+}
+
+.iconempresas1 {
+  z-index: 3;
+  position: absolute;
+  top: 35rem;
+  left: 21.5rem;
+}
+
+}
+
+
+
 @media (max-width: 767px) {
   .phone1 {
     display: none;
