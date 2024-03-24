@@ -41,3 +41,48 @@
     margin: 0rem;
     color: #B3B0B8;
 }
+
+/* Estilos para dispositivos com largura entre 990px e 767px */
+@media (max-width: 990px) and (min-width: 767px) {
+    .MiranteSessionImg{
+        height: auto;
+        width: 400px;
+        margin-left: -50px;
+    }
+    .boldTxt {
+        color: white;
+        font-weight: bolder;
+        font-size: 400%;
+        font-family: "Epilogue", sans-serif;
+    }
+    
+    .smallTxt {
+        color: white;
+        font-weight: 100;
+        font-size: 400%;
+        font-family: "Epilogue", sans-serif;
+    }
+    
+    .ptxt {
+        color: #7C7A80;
+        font-size: 150%;
+        font-weight: 100;
+    }
+    
+    .numberTxt{
+        color: white;
+        font-size: 400%;
+    }
+    .spanTxt{
+        color: white;
+        font-size: 40%;
+        font-weight: 100;
+    }
+    .numberP{
+        color: white;
+        font-size: 150%;
+        font-weight: 100;
+        margin: 0rem;
+        color: #B3B0B8;
+    }
+}

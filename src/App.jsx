@@ -15,7 +15,7 @@ function App() {
       <CortesSession/>
       <ProcessosSession/>
       <Who/>
-      {/* <BigCase/> */}
+      <BigCase/>
       {/* <Formulario/> */}
       {/* <Parceiros/> */}
       {/* <Accordion/>  */}
