@@ -123,3 +123,67 @@
     left: 70%;
   }
 }
+/* Estilos para dispositivos móveis com largura máxima de 767px */
+@media (max-width: 767px) {
+  .Cortesimg{
+    width: 355px;
+    position: relative;
+   top: -10rem;
+   right: 0rem;
+}
+
+.odometer {
+    font-family: "Inter", sans-serif;
+    font-weight: bolder;
+    font-size:15px;
+    display: inline-block;
+  }
+  
+  .odometer+span {
+    font-size: 12px;
+    vertical-align: start;
+    margin-left: 5px;
+  }
+  
+  #state1 {
+    z-index: 3;
+    position: absolute;
+    top: 980px;
+    left: 115px;
+  }
+  
+  #span1 {
+    z-index: 3;
+    position: absolute;
+    top: 980px;
+    left: 145px;
+  }
+  
+  #state2 {
+    z-index: 3;
+    position: absolute;
+    top: 883px;
+    left:305px;
+  }
+  
+  #span2 {
+    z-index: 3;
+    position: absolute;
+    top: 883px;
+    left:315px;
+  }
+  
+  #state3 {
+    z-index: 3;
+    position: absolute;
+    top: 955px;
+    left:280px;
+  }
+  
+  #span3 {
+    z-index: 3;
+    position: absolute;
+    top: 955px;
+    left:298px;
+  }
+}

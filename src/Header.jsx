@@ -7,7 +7,7 @@ import TitleHeader from './TitleHeader';
 import Phones from './Phones';
 import Cicle from './Cicle';
 
-import Logo from '../public/Logo.svg';
+import LogoImg from '../public/Logo.svg';
 import grupoMiranteImg from "../src/assets/grupoMirante.svg";
 import logoAdueloImg from "../src/assets/logoAduelo.svg";
 import miranteAm from "../src/assets/miranteAm.svg";
@@ -19,7 +19,7 @@ const header = () => {
     <div className="Header" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <nav className="navbar navbar-expand-lg">
         <div className="container mt-3">
-          <img className='logoImg' src={Logo} alt="LogoAutoClipper" />
+          <img className='logoImg' src={LogoImg} alt="LogoAutoClipper" />
           <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" style={{backgroundColor:'white'}} data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>

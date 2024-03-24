@@ -14,13 +14,13 @@ function App() {
     <>
       <Header/>
       <CortesSession/>
-      <ProcessosSession/>
-      <Who/>
-      <BigCase/>
-      <Formulario/>
-      <Parceiros/>
-      <Accordion/> 
-      <FooterSession/>
+      {/* <ProcessosSession/> */}
+      {/* <Who/> */}
+      {/* <BigCase/> */}
+      {/* <Formulario/> */}
+      {/* <Parceiros/> */}
+      {/* <Accordion/> 
+      <FooterSession/> */}
     </>
   );
 }
