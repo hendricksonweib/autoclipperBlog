@@ -19,8 +19,8 @@ function App() {
       <BigCase/>
       <Formulario/>
       <Parceiros/>
-      {/* <Accordion/> 
-      <FooterSession/> */}
+      <Accordion/> 
+      <FooterSession/>
     </>
   );
 }

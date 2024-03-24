@@ -9,7 +9,7 @@ function MyAccordion() {
                 <h1 className="AccordionH1">Perguntas Frequentes</h1>
             </div>
             <div className="row justify-content-center">
-                <div className="col-6 mt-4">
+                <div className="col-8 mt-4">
                     <BootstrapAccordion defaultActiveKey="0">
                         <BootstrapAccordion.Item eventKey="0">
                             <BootstrapAccordion.Header style={{ backgroundColor: 'black', color: 'white' }}>O que é a Autoclipper e como ela pode ajudar na entrega de conteúdo?</BootstrapAccordion.Header>

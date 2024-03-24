@@ -1,19 +1,57 @@
+/* Estilos padrão */
 .accordionBg {
     background-color: black;
     padding: 5%;
 }
-.AccordionH1{
+
+.AccordionH1 {
     color: #ffffff;
 }
+
 .accordionheader {
     background-color: black !important;
     color: rgb(198, 0, 0) !important;
 }
 
-.accordion-button, .accordion-body{
+.accordion-button,
+.accordion-body {
     background-color: black !important;
     color: white !important;
 }
-.accordion-button::after{
+
+.accordion-button::after {
     background-color: #CAFF1F !important;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+    .accordionBg {
+        padding: 10px;
+    }
+
+    .accordion-body {
+        font-size: 10px;
+    }
+
+    .accordion-header {
+        font-size: 1px;
+    }
+
+    .AccordionH1 {
+        font-size: 24px;
+    }
+
+    .accordion-button{
+        font-size: 10px;
+    }
+    .accordion-button::after {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media (max-width: 576px) {
+    .AccordionH1 {
+        font-size: 20px;
+    }
 }
