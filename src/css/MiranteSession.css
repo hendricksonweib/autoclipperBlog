@@ -56,13 +56,44 @@
     .col-md-7, .col-md-5 {
         text-align: center; 
     }
+    .boldTxt {
+        color: white;
+        font-weight: bolder;
+        font-size: 15vw;
+        font-family: "Epilogue", sans-serif;
+    }
+    
+    .smallTxt {
+        color: white;
+        font-weight: 100;
+        font-size: 15vw;
+        font-family: "Epilogue", sans-serif;
+    }
+    
+    .ptxt {
+        color: #7C7A80;
+        font-size: 6vw;
+        font-weight: 100;
+    }
+    
+
+    .numberTxt {
+        color: white;
+    }
+    
+    .spanTxt {
+        color: white;
+        font-size: 5vw;
+        font-weight: 100;
+    }
 
 .numberP {
     color: white;
-    font-size: 3vw;
-    font-weight: 100;
+    font-size: 5vw;
+    font-weight: 300;
     color: #B3B0B8;
     text-align: start;
+    margin-bottom: 1rem;
 }
 .numberTxt {
     color: white;
