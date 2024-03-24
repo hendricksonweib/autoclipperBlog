@@ -8,7 +8,7 @@ import './css/Who.css'; // Importe o arquivo CSS
 
 function Who() {
     return (
-        <div className="d-flex flex-column align-items-center justify-content-center vh-100">
+        <div className="d-flex flex-column align-items-center justify-content-center vh-100  conteinerTudo">
             <h1 className="title mb-4">
                 Para Quem é a Autoclipper?
             </h1>

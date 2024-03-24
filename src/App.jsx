@@ -14,7 +14,7 @@ function App() {
       <Header/>
       <CortesSession/>
       <ProcessosSession/>
-      {/* <Who/> */}
+      <Who/>
       {/* <BigCase/> */}
       {/* <Formulario/> */}
       {/* <Parceiros/> */}
