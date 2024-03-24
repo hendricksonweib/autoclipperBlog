@@ -4,7 +4,7 @@ import '../src/css/Formulario.css';
 
 function Formulario() {
     return (
-        <div className="bgforms">
+        <div id="Formulario" className="bgforms">
             <div className="container d-flex justify-content-center align-items-center">
                 <div className="text-center">
                     <h1 className="titleForm mb-3">

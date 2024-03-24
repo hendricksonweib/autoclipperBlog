@@ -17,7 +17,9 @@ function App() {
       <ProcessosSession/>
       <Who/>
       <BigCase/>
-      <Formulario/>
+      <div id="Formulario">
+        <Formulario />
+      </div>
       <Parceiros/>
       <Accordion/> 
       <FooterSession/>

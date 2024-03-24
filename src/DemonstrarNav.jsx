@@ -3,10 +3,11 @@ import React from 'react';
 
 const DomonstrarNAv = (props) => {
   const handleClick = () => {
-    console.log('Botão clicado!');
+    document.getElementById(props.targetId).scrollIntoView({ behavior: 'smooth' });
   };
+
   return (
-    <button className='liNavBtn' onClick={props.onClick}>{props.texto}</button>
+    <button className='liNavBtn' onClick={props.handleClick}>{props.texto}</button>
   );
 }
 

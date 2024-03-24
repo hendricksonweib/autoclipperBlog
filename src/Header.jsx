@@ -14,13 +14,17 @@ import miranteAm from "../src/assets/miranteAm.svg";
 import backgroundImg from "../src/assets/background.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-const header = () => {
+function header() {
+  const handleScroll = () => {
+    document.getElementById('Formulario').scrollIntoView({ behavior: 'smooth' });
+  }
+
   return (
     <div className="Header" style={{ backgroundImage: `url(${backgroundImg})` }}>
       <nav className="navbar navbar-expand-lg">
         <div className="container mt-3">
           <img className='logoImg' src={LogoImg} alt="LogoAutoClipper" />
-          <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" style={{backgroundColor:'white'}} data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button className="navbar-toggler ml-auto" type="button" data-toggle="collapse" style={{ backgroundColor: 'white' }} data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -41,7 +45,7 @@ const header = () => {
                 <ButtonNav texto="FAQ" />
               </li>
               <li className="nav-item">
-                <DomonstrarNav texto="Agende uma demonstração" />
+                <DomonstrarNav targetId="Formulario" handleClick={handleScroll} texto="Agende uma demonstração" />
               </li>
             </ul>
           </div>
@@ -70,4 +74,3 @@ const header = () => {
 }
 
 export default header;
-""
