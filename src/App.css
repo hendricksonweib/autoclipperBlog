@@ -120,6 +120,30 @@
 .navfooter img {
   margin: 0 18px;
 }
+/* Estilos para dispositivos com largura entre 1440px e 990px */
+@media (max-width: 1440px) and (min-width: 990px) {
+  .navbar {
+    padding: 0.3rem 0.8rem;
+  }
+
+  .navMainH1 {
+    font-size: 300%;
+  }
+
+  .navMainH6 {
+    font-size: 85%;
+  }
+
+  .navfooter {
+    margin-top: 1rem;
+  }
+
+  .navfooter img {
+    height: 90%;
+    margin: 0 12px;
+  }
+}
+
 
 @media (min-width: 986px) and (max-width: 1250px) {
   .navbar {
