@@ -7,10 +7,10 @@ import TitleHeader from './TitleHeader';
 import Phones from './Phones';
 import Cicle from './Cicle';
 
+import Logo from '../src/assets/Logo.svg';
 import grupoMiranteImg from "../src/assets/grupoMirante.svg";
 import logoAdueloImg from "../src/assets/logoAduelo.svg";
 import miranteAm from "../src/assets/miranteAm.svg";
-import Logo from "../src/assets/Logo.svg";
 import backgroundImg from "../src/assets/background.svg";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
