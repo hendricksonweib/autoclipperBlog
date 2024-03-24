@@ -2,8 +2,11 @@ import React from 'react'
 import './App.css'; 
 
 function BtnCta(props) {
+  const handleClick = () => {
+    document.getElementById(props.targetId).scrollIntoView({ behavior: 'smooth' });
+  };
   return (
-    <button className='navMainBtn' onClick={props.onClick}>{props.texto}</button>
+    <button className='navMainBtn' onClick={props.handleClick}>{props.texto}</button>
   )
 }
 
