@@ -39,7 +39,8 @@ li{
     z-index: 1;
     height: auto;
     width: 500px;
-    margin-top: 35%;
+    margin-top: 45%;
+
   }
   .fotoImg{
     z-index: 2;
@@ -51,9 +52,9 @@ li{
   .titleProcess{
     z-index: 2;
     margin-top: -215px;
-    margin-left: 409px;
+    margin-left: 408px;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   }
   .tags{
