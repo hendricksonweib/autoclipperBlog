@@ -5,84 +5,70 @@
     padding: 8rem 0rem 4rem 0rem;
 }
 
+.MiranteSessionImg {
+    max-width: 100%;
+    height: auto;
+}
+
 .boldTxt {
     color: white;
     font-weight: bolder;
-    font-size: 500%;
+    font-size: 5vw;
     font-family: "Epilogue", sans-serif;
 }
 
 .smallTxt {
     color: white;
     font-weight: 100;
-    font-size: 500%;
+    font-size: 5vw;
     font-family: "Epilogue", sans-serif;
 }
 
 .ptxt {
     color: #7C7A80;
-    font-size: 190%;
+    font-size: 2vw;
     font-weight: 100;
 }
 
-.numberTxt{
+.numberTxt {
     color: white;
-    font-size: 400%;
+    font-size: 4vw;
 }
-.spanTxt{
+
+.spanTxt {
     color: white;
-    font-size: 40%;
+    font-size: 2vw;
     font-weight: 100;
 }
-.numberP{
+
+.numberP {
     color: white;
-    font-size: 150%;
+    font-size: 1.5vw;
     font-weight: 100;
     margin: 0rem;
     color: #B3B0B8;
 }
+@media (max-width: 767px) {
+    .BigCaseBg {
+        padding: 6rem 0rem 2rem 0rem; 
+    }
 
-/* Estilos para dispositivos com largura entre 990px e 767px */
-@media (max-width: 990px) and (min-width: 767px) {
-    .MiranteSessionImg{
-        height: auto;
-        width: 400px;
-        margin-left: -50px;
+    .col-md-7, .col-md-5 {
+        text-align: center; 
     }
-    .boldTxt {
-        color: white;
-        font-weight: bolder;
-        font-size: 400%;
-        font-family: "Epilogue", sans-serif;
-    }
-    
-    .smallTxt {
-        color: white;
-        font-weight: 100;
-        font-size: 400%;
-        font-family: "Epilogue", sans-serif;
-    }
-    
-    .ptxt {
-        color: #7C7A80;
-        font-size: 150%;
-        font-weight: 100;
-    }
-    
-    .numberTxt{
-        color: white;
-        font-size: 300%;
-    }
-    .spanTxt{
-        color: white;
-        font-size: 40%;
-        font-weight: 100;
-    }
-    .numberP{
-        color: white;
-        font-size: 100%;
-        font-weight: 100;
-        margin: 0rem;
-        color: #B3B0B8;
-    }
+
+.numberP {
+    color: white;
+    font-size: 3vw;
+    font-weight: 100;
+    color: #B3B0B8;
+    text-align: start;
+}
+.numberTxt {
+    color: white;
+    font-size: 6vw;
+    padding: 0;
+    margin: 0;
+}
+
 }
