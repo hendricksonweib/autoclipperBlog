@@ -39,7 +39,7 @@ li{
     z-index: 1;
     height: auto;
     width: 500px;
-    margin-top: 45%;
+    margin-top: 20%;
 
   }
   .fotoImg{
@@ -49,10 +49,65 @@ li{
     height: auto;
     width: 200px;
   }
-  .titleProcess{
+  h1.titleProcess{
     z-index: 2;
-    margin-top: -215px;
+    margin-top: -150px;
     margin-left: 408px;
+    color: white;
+    font-size: 18px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .tags{
+    z-index: 2;
+    color: white;
+    margin-top: 20%;
+    margin-right:5%;
+    
+  }
+  .txtli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5%;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  li{
+    list-style-type: none;
+    font-size: 18px;
+    transition: transform 0.3s ease; 
+  }
+  .txtli:hover {
+    transform: scale(1.1); 
+  }
+  
+
+  .txtli li:hover {
+    color: #CAFF1F; 
+    font-weight: bold; 
+    cursor: pointer; 
+  }
+}
+
+
+@media (max-width: 767px) {
+  .bgsessionImg{
+    z-index: 1;
+    height: auto;
+    width: 500px;
+    margin-top: 20%;
+
+  }
+  .break-line {
+    display: none;
+  }
+
+  h1.titleProcess{
+    z-index: 2;
+    margin-top: -150px;
+    margin-left: 258px;
     color: white;
     font-size: 15px;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
@@ -77,13 +132,70 @@ li{
   li{
     list-style-type: none;
     font-size: 18px;
+    transition: transform 0.3s ease; 
+  }
+  .txtli:hover {
+    transform: scale(1.1); 
+  }
+  
+
+  .txtli li:hover {
+    color: #CAFF1F; 
+    font-weight: bold; 
+    cursor: pointer; 
   }
 }
 
-
-@media (max-width: 767px) {
+@media (max-width: 467px) {
   .bgsessionImg{
-    margin-top: -10rem;
-    width: 8rem;
+    z-index: 1;
+    height: auto;
+    width: 300px;
+    margin-top: 20%;
+
+  }
+  .break-line {
+    display: none;
+  }
+
+  h1.titleProcess{
+    z-index: 2;
+    margin-top: -115px;
+    margin-left: 258px;
+    color: white;
+    font-size: 12px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  .tags{
+    z-index: 2;
+    color: white;
+    margin-top: 20%;
+    margin-right:5%;
+    
+  }
+  .txtli{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5%;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  li{
+    list-style-type: none;
+    font-size: 18px;
+    transition: transform 0.3s ease; 
+  }
+  .txtli:hover {
+    transform: scale(1.1); 
+  }
+  
+
+  .txtli li:hover {
+    color: #CAFF1F; 
+    font-weight: bold; 
+    cursor: pointer; 
   }
 }
