@@ -8,6 +8,7 @@ import Formulario from './Formulario.jsx';
 import Parceiros from './Parceiros.jsx';
 import Accordion from './Accordion.jsx';
 import FooterSession from './FooterSession.jsx';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
       <Parceiros/>
       <Accordion/> 
       <FooterSession/>
+      <Analytics />
     </>
   );
 }

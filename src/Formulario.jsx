@@ -1,6 +1,7 @@
 import React from 'react';
 import BtnCta from './BtnCta';
 import '../src/css/Formulario.css';
+import { Analytics } from '@vercel/analytics/react';
 
 function Formulario() {
     return (
@@ -28,6 +29,7 @@ function Formulario() {
                             <input type="hidden" name="_captcha" value="false"></input>
                             <input type="hidden" name="_next" value="http://localhost:5174"></input>
                             <BtnCta type="submit" texto="Enviar" />
+                            <Analytics />
                         </form>
                     </div>
                 </div>
