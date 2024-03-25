@@ -1,0 +1,20 @@
+.cortes-session {
+    /* Estilos da seção de cortes */
+    /* Por exemplo: */
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  /* Exemplo de estilo para a animação */
+  .animated-enter {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
+  .animated-enter-active {
+    opacity: 1;
+    transform: translateX(0);
+    transition: opacity 1000ms, transform 1000ms;
+  }
+  
